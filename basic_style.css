@@ -8,13 +8,13 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0,0.6);
 }
 
-.container (
+.container {
     width: 450px;
     height: 450px;
     background-color: #faebd7;
     border: 2px solid black;
     border-radius: 5%
-)
+}
 
 /*----------------------------------
 SELECT ALL SQUARES IN THE ARRAY
@@ -67,7 +67,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 HOVER EFFECTS
 ---------------------------------*/
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("./images/icons/smileyface1.jpgs");
+    background-image: url("./images/icons/smileyface1.jpg");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -102,7 +102,7 @@ ANIMATION EFFECT
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-attachment: url("../images/icons/smileyface1.png");
+        background-attachment: url("./images/icons/smileyface1.jpg");
     }
 }
 50% {
